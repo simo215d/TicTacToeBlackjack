@@ -5,12 +5,13 @@ Se src -> blackjack/tictactoe for at se besvarelser.
 
 BlackJack protocol ligger i blackjack mappen. 
 
-Den er ikke 100% ens med min kode, da betting ikke er med. Jeg bruger også Card og Game klasserne til at holde styr på spillet.
+Den er ikke 100% ens med min kode, da betting ikke er med. Jeg bruger også Card og Game klasserne til at holde styr på spillet. Game klassen er den klasse der håndtere hele dækket og spillernes kort og dealerens kort. 
 
 Client1 og Client2 er 100% ens, jeg skal bare bruge dem til, at starte 2 klienter på samme tid så man kan spille sammen. 
 
 
 Man kører først serveren. Dernest de 2 klienter.
+Player1 starter altid.
 Så skriver man i klienterne HIT eller STAND hvis det er dens tur. 
 
 Undervejs får man at vide hvilke kort man har på hånden.
